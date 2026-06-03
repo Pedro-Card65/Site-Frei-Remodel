@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    width: auto;
+    margin: 1rem 2rem;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(26 40 118);
+}
+
+a#logo {
+    display: flex;
+
+    font-size: 2em;
+    gap: 1em;
+    width: 20rem;   
+    align-items: center;
+    box-sizing: border-box;
+}
+
+header img {
+    width: 15em;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem;
+    gap: 2em;
+    margin: 0 1rem;
+
+}
+
