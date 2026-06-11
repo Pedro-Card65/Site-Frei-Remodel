@@ -1,0 +1,69 @@
+.redes{
+    background-color: rgb(190, 190, 255);
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: linear-gradient(rgb(123, 123, 255), rgb(136, 143, 212));
+}
+.RedesSociais{
+    position: absolute;
+    right: 0.4rem;
+    bottom: 0.6rem;
+    height: 17rem;
+    width: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 3;
+}
+.RedesSociais a {
+    width: 100%;
+    height: 18%;
+}
+.RedesSociais a img{
+    width: 100%;
+    height: 100%;
+}
+.Instagram{
+    width: 150%;
+    height: 150%;
+}
+.centro{
+    background-color: blue;
+    display: flex;
+    width: 95%;
+}
+.ImgInstituto{
+    width: 50%;
+    height: 50rem;
+    background-color: gray;
+}
+.BoasVindas{
+    width: 100%;
+    height: 43rem;
+    background-color: rgb(172, 172, 172);
+    z-index: 2;
+    background-image: linear-gradient(to left, rgb(76, 76, 165), rgb(105, 118, 173));
+    color: rgb(241, 241, 241);
+}
+.FotoInstituto{
+    height: 100%;
+    width: 130%;
+    z-index: 1;
+}
+.Estilização{
+    background-image: url(/images/wmremove-transformed.png);
+    background-size: cover;
+    width: 100%;
+    height: 7rem;
+    z-index: 6;
+}
+.BoasVindasSegundo{
+        width: 50%;
+    height: 50rem;
+}
+h10{
+    color: rgb(238, 185, 38);
+}
