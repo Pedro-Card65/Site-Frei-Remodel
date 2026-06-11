@@ -31,8 +31,7 @@ a{
 .pages {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     font-size: 1.7rem;
-    gap: 2em;
-    margin: 0 1rem;
+    width: 118rem;
 }
-
