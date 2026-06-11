@@ -8,3 +8,12 @@ html{
     font-size: 10px;
     background-color: gainsboro;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: black;
+}

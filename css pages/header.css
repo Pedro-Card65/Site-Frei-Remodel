@@ -34,5 +34,9 @@ a{
     font-size: 1.7rem;
     gap: 2em;
     margin: 0 1rem;
+    margin-right: 3%;
 }
-
+.pages a:hover{
+    color: rgb(0, 133, 221);
+    text-decoration: underline;
+}
