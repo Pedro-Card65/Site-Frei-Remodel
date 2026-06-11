@@ -9,8 +9,8 @@
 }
 .RedesSociais{
     position: absolute;
-    right: 0.4rem;
-    bottom: 0.6rem;
+    right: 0.3em;
+    bottom: 0.3em;
     height: 17rem;
     width: 2.5rem;
     display: flex;
@@ -23,13 +23,10 @@
     height: 18%;
 }
 .RedesSociais a img{
-    width: 100%;
-    height: 100%;
+    width: 20px;
+    height: 20px;
 }
-.Instagram{
-    width: 150%;
-    height: 150%;
-}
+
 .centro{
     background-color: blue;
     display: flex;
@@ -54,8 +51,8 @@
     z-index: 1;
 }
 .Estilização{
-    background-image: url(/images/wmremove-transformed.png);
-    background-size: cover;
+    background-image: url(/images/Listra_azul.png);
+    background-size: 72rem 8rem;
     width: 100%;
     height: 7rem;
     z-index: 6;
@@ -66,4 +63,11 @@
 }
 h10{
     color: rgb(238, 185, 38);
+    font-weight: 800;
+    font-size: 3.6rem;
+}
+.TextoIntrodutorio{
+    color: white;
+    font-weight: 700;
+    font-size: 2.6rem;
 }
