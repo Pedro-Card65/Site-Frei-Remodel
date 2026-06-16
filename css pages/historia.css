@@ -4,36 +4,48 @@
     color: white;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom right, #0D239F, #340d9f);
+    background-image: linear-gradient(to bottom right, #0D239F, #1f1cd1);
 
 }
+
+.pai img#logo {
+    position: absolute;
+    width: 35rem;
+    opacity: 10%;
+    right: 0em;
+}
+
 .p1{
     margin-left: 4%;
 }
+
 .p1 h1{
-    font-size: 1.5em;
+    margin-top: 0.3em;
+    font-size: 3em;
 }
+
 span#his {
     font-family: "Mea Culpa", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 3em;
+    font-size: 1.7em;
 }
 
 span#num {
     color: #F3C443;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .icons {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .icones1, .icones2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2em;
+    gap: 2em 0;
 }
 .icones1{
     height: 38em;
@@ -45,6 +57,8 @@ span#num {
 }
 .conjunto{
     display: flex;
+    align-items: center;
+    gap: 1.5em;
 }
 
 .linha1, .linha2 {
@@ -57,17 +71,44 @@ span#num {
 
 .linha1 {
     right: 0em;
+    top: 4em;
 }
 
 .linha2 {
-    bottom: 0.8em;
+    bottom: 5em;
 }
 
 .s {
-    background-color: #0D239F;
     height: 3em;
 }
 
 .num{
     font-size: 3em;
+}
+
+.icons h1#h1 {
+    display: flex;
+    align-items: center;
+    width: 27rem;
+    font-weight: 800;
+    font-size: 4em;
+    text-align: end;
+}
+
+.icons p{
+    font-size: 2rem;
+}
+
+.bloco {
+    display: flex;
+    flex-direction: column;
+}
+
+.icons h1 {
+    font-size: 4em;
+}
+
+.space {
+    height: 3rem;
+    background-color: white;
 }
