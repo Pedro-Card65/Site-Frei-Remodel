@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, #141e53, #2c41b5);
-    box-shadow: 1rem -3rem 10rem black;
+    box-shadow: 1rem 0rem 10rem black;
 }
 .DecoraçãoTitulo{
     height: 0.5rem;
