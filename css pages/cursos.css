@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, #141e53, #2c41b5);
-    box-shadow: 1px -3rem 10rem black;
+    box-shadow: 1rem -3rem 10rem black;
 }
 .DecoraçãoTitulo{
     height: 0.5rem;
@@ -26,14 +26,16 @@
 
 .DiscursoInformativo{
     width: 100%;
-    height: 70rem;
+    height: 60rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+   
 }
 
 .ExemplosDeCursos{
-    margin-top: 9rem;
+    margin-top: 8rem;
+    background-color: white;
 }
 .TextoDiscurso{
     color: rgb(0, 0, 158);
@@ -48,7 +50,7 @@
 }
 .OrganizaçãoImagens{
     display: flex;
-    width: 160rem;
+    width: 130rem;
     height: 20rem;
     justify-content: space-evenly;
     margin-top: 6rem;
@@ -63,7 +65,7 @@
     justify-content: space-evenly;
     width: 18rem;
     border-radius: 2rem;
-    box-shadow: 0.2rem 0.2rem 7px black;
+    box-shadow: 0rem 0rem 1rem -0.1rem black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,6 +76,3 @@
     text-align: center;
     font-weight: 400;
 }
-.PadariaFrei{
-}
-.ConhecaFrei{}
