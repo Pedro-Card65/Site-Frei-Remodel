@@ -1,0 +1,80 @@
+.depoi {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    gap: 3em;
+    align-items: center;
+
+    background-color: #F4F4F4;
+    height: 40rem;
+}
+
+.depoi h1 {
+    color: #1A2876;
+    font-size: 5rem;
+    margin-top: 1rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 55rem;
+    height: 35rem;
+    gap: 3em;   
+    margin-left: 12rem;
+
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.466);
+    border-radius: 15px;   
+}
+
+img#bruno {
+    position: absolute;
+    width: 25rem;
+    left: 26rem;
+    top: 5rem;
+}
+
+button img {
+    width: 5rem;
+}
+
+button#setaL, button#setaR {
+    position: absolute;
+    top: 22rem;
+}
+
+button#setaL {
+    left: 15rem;
+}
+
+button#setaR {
+    right: 15rem;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+p#depoi {
+    font-size: 2rem;
+    width: 37rem;
+    text-align: center;
+    color: #1A2876;
+    font-weight: 600;
+}
+
+p#ident {
+    color: #1a28769f;
+    font-size: 1.5rem;
+}
+
+
+
