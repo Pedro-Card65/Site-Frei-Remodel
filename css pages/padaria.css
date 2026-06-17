@@ -1,0 +1,55 @@
+    .padaria{
+            background: linear-gradient(to top, rgb(109, 126, 201), #f4f4f4);
+    }
+    
+
+.tiPadaria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 4rem;
+    color: rgb(20, 26, 105);
+    padding: 2rem;
+    padding-top: 3rem;
+}
+
+.geral{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.apresentacao{
+    font-size: 2.3rem;
+    color: rgb(20, 26, 105);
+    text-align: justify;
+    padding: 2.6rem;
+    padding-top: 1rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+
+.imagemCardapio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 3rem;
+    padding: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.imagemCardapio img{
+    width: 35rem;
+    border: solid white;
+}
+
+.imagemCardapio p{
+    font-size: 2.1rem;
+    text-align: justify;
+    color: rgb(20, 26, 105);
+
+}
