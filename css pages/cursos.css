@@ -1,0 +1,79 @@
+
+.TitCurso h3{
+    color: #f3c443;
+    font-size: 5rem;
+}
+.TitCurso h3{
+    width: 60rem;
+    text-align: center;
+}
+
+.Cursos{
+    height: 13rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #141e53, #2c41b5);
+    box-shadow: 1px -3rem 10rem black;
+}
+.DecoraçãoTitulo{
+    height: 0.5rem;
+    width: 100%;
+    border-top-style: solid;
+    border-color: #f3c443;
+}
+
+.DiscursoInformativo{
+    width: 100%;
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ExemplosDeCursos{
+    margin-top: 9rem;
+}
+.TextoDiscurso{
+    color: rgb(0, 0, 158);
+    width: 50%;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.DiscursoImagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.OrganizaçãoImagens{
+    display: flex;
+    width: 160rem;
+    height: 20rem;
+    justify-content: space-evenly;
+    margin-top: 6rem;
+    
+}
+.OrganizaçãoImagens div img{
+    height: 16rem;
+    width: 16rem;
+}
+.OrganizaçãoImagens div{
+    height: 25rem;
+    justify-content: space-evenly;
+    width: 18rem;
+    border-radius: 2rem;
+    box-shadow: 0.2rem 0.2rem 7px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.OrganizaçãoImagens p{
+    font-size: 2.5rem;
+    color: rgb(110, 110, 110);
+    text-align: center;
+    font-weight: 400;
+}
+.PadariaFrei{
+}
+.ConhecaFrei{}
