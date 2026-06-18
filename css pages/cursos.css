@@ -1,9 +1,6 @@
-
-.TitCurso h3{
+.TitCurso h1{
     color: #f3c443;
     font-size: 5rem;
-}
-.TitCurso h3{
     width: 60rem;
     text-align: center;
 }
@@ -17,7 +14,7 @@
     background-image: linear-gradient(to right, #141e53, #2c41b5);
     box-shadow: 1rem 0rem 10rem black;
 }
-.DecoraçãoTitulo{
+.DecoracaoTitulo{
     height: 0.5rem;
     width: 100%;
     border-top-style: solid;
@@ -30,7 +27,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 }
 
 .ExemplosDeCursos{
@@ -48,19 +44,18 @@
     flex-direction: column;
     justify-content: center;
 }
-.OrganizaçãoImagens{
+.OrganizacaoImagens{
     display: flex;
     width: 130rem;
     height: 20rem;
     justify-content: space-evenly;
     margin-top: 6rem;
-    
 }
-.OrganizaçãoImagens div img{
+.OrganizacaoImagens div img{
     height: 16rem;
     width: 16rem;
 }
-.OrganizaçãoImagens div{
+.OrganizacaoImagens div{
     height: 25rem;
     justify-content: space-evenly;
     width: 18rem;
@@ -70,7 +65,7 @@
     flex-direction: column;
     align-items: center;
 }
-.OrganizaçãoImagens p{
+.OrganizacaoImagens p{
     font-size: 2.5rem;
     color: rgb(110, 110, 110);
     text-align: center;
