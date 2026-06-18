@@ -1,7 +1,7 @@
 .depoi {
     display: flex;
     flex-direction: column;
-    position: relative;
+    
 
     gap: 3em;
     align-items: center;
@@ -20,12 +20,15 @@
     display: flex;
     flex-direction: column;
 
+    position: relative;
+
     justify-content: center;
     align-items: center;
 
     width: 55rem;
     height: 35rem;
     gap: 3em;   
+
     margin-left: 12rem;
 
     background-color: white;
@@ -37,8 +40,8 @@
 img#bruno {
     position: absolute;
     width: 25rem;
-    left: 26rem;
-    top: 5rem;
+    right: 47rem;
+    bottom: 0;
 }
 
 button img {
@@ -47,15 +50,15 @@ button img {
 
 button#setaL, button#setaR {
     position: absolute;
-    top: 22rem;
+    
 }
 
 button#setaL {
-    left: 15rem;
+    right: 85rem;
 }
 
 button#setaR {
-    right: 15rem;
+    left: 70rem;
 }
 
 button {
@@ -74,6 +77,15 @@ p#depoi {
 p#ident {
     color: #1a28769f;
     font-size: 1.5rem;
+}
+
+.circulos {
+    display: flex;
+    gap: 0.5em;
+}
+
+.circulos img {
+    width: 1.3rem;
 }
 
 
