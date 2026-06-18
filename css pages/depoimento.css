@@ -7,13 +7,14 @@
     align-items: center;
 
     background-color: #F4F4F4;
-    height: 40rem;
+    height: 65rem;
 }
 
 .depoi h1 {
     color: #1A2876;
-    font-size: 5rem;
+    font-size: 6rem;
     margin-top: 1rem;
+    margin-bottom: 5rem;
 }
 
 .text {

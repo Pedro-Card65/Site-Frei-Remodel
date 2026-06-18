@@ -4,6 +4,7 @@
     position: relative;
     background-color: #F4F4F4;
     height: 82rem;
+    box-sizing: border-box;
 }
 
 .header-noticias-galeria {
@@ -29,8 +30,8 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 70rem;
-    height: 30rem;
+    width: 50rem;
+    height: 28rem;
     padding: 2rem 3rem;
     background-color: #2E3192;
     border-radius: 5.5rem 0 0 5.5rem;
@@ -54,48 +55,42 @@
 .b1, .b2 {
     display: flex;
     align-items: center;
+    
 }
 
 .b1 {
     gap: 5rem;
-    margin-left: 5rem;
+    margin-left: 1rem;
     margin-top: 6rem;
 }
 
 .b1 img {
     width: 32rem;
     height: 20rem;
-    box-shadow: 0 0 1.2rem rgba(0,0,0,.18);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.15);
 }
 
 .b2 {
-    gap: 6rem;
-    margin-left: 5rem;
+    gap: 2.5rem;
+    margin-left: 1rem;
     margin-top: 5rem;
+    
 }
 
 img#ana {
     width: 47rem;
     height: 27rem;
-    box-shadow: 0 0 1.2rem rgba(0,0,0,.18);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.15);
 }
 
 img#ter {
     width: 39rem;
     height: 23rem;
-    box-shadow: 0 0 1.2rem rgba(0,0,0,.18);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.15);
 }
 
 img#frei {
     width: 33rem;
     height: 30rem;
-    box-shadow: 0 0 1.2rem rgba(0,0,0,.18);
-}
-
-img#vem {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 7rem;
-    height: 42rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.15);
 }
