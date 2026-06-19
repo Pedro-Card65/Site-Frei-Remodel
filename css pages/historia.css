@@ -87,8 +87,8 @@ span#num {
 }
 
 .icons h1#h1 {
-    display: flex;
     align-items: center;
+    margin-top: 5rem;
     width: 27rem;
     font-weight: 800;
     font-size: 4em;
@@ -111,4 +111,12 @@ span#num {
 .space {
     height: 3rem;
     background-color: white;
+}
+
+#h1 span {
+    color: #F3C443;
+}
+
+.hi {
+    width: 25rem;
 }
